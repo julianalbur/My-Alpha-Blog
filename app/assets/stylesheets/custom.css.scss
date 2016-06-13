@@ -11,9 +11,8 @@ $navbar-default-bg: black;
     letter-spacing: -1px;
     font-weight: bold;
 }
-body{
-       background-image:url"http://cdn7.facegfx.com/static/vector/2013/7/9/facegfx-vector-the-city-silhouette-vector.jpg";
-}
+
+
 #logo:hover {
     color: white;
     text-decoration: none;
@@ -26,7 +25,7 @@ body{
 .jumbotron {
     background-image: asset-url('#');
     background-size: cover;
-    background-color:grey;
+    background-color: grey;
     height: 550px;
 }
 
@@ -41,6 +40,8 @@ body{
 .btn-xlarge {
     font-size: 1.7em;
     background-color: blue;
+    border-color: grey;
+    border: 9px solid;
 }
 
 .article-meta-details {
@@ -74,7 +75,7 @@ body{
 }
 
 .badge {
-    background-color: #CEF6F5;
+    background-color: #GREY;
     text-transform: uppercase;
     letter-spacing: -1px;
     font-weight: bold;
